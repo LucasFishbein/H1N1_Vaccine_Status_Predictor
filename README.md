@@ -37,6 +37,13 @@ The stakeholders for this project will be the US National Institutes of Health (
     macro avg       0.77      0.71      0.73      6677
     weighted avg    0.83      0.84      0.83      6677
     
+### Targetable Vaccine Hesitant Groups
+
+Based on the information extracted from the model the following groups are likely to be vaccine hesitant.
+
+* People of Multi-racial or non-white, black or hispanic descent 
+* Unemployed People
+* People with "Some College"
     
 # Database Understanding
 
@@ -108,6 +115,15 @@ From this graph it can be extrapolated that the top most important features of s
 >  * One's opinion on the risk of seasonal flu (0.05)
 >  * One's Knowledge of the H1N1 diesease (0.05)
 
+### Targetable Vaccine Hesitant Groups
+
+Based on the information extracted from the model the following groups are likely to be vaccine hesitant.
+
+* People of Multi-racial or non-white, black or hispanic descent 
+* Unemployed People
+* People with "Some College"
+
+
 # Recommendations and Conclusions
 
 Based on the information gathered from the finalized classification prediction model, the following recommendations will be given to the NIH in an attempt to give them action steps that will increase the rates of vacination for the Corona Virus as well as future diseases.
@@ -143,3 +159,4 @@ For additional info, contact Lucas Fishbein at FishbeinLucas@gmail.com
 ├── LICENSE.md
 └── README.md
 ```
+

@@ -53,7 +53,10 @@ The definitions of the feature columns can be accessed via the H1N1_preds_data_d
 
 The data is provided courtesy of the United States National Center for Health Statistics from [The National 2009 H1N1 Flu Survey. Hyattsville, MD: Centers for Disease Control and Prevention, 2012.](https://www.cdc.gov/nchs/nis/data_files_h1n1.htm)  
 
+
+
 # Data Cleaning and Preprocessing
+
 
 The cleaned dataset did not remove any of the orginal subjects from the study but three feature columns were completely removed as they had NaNs for about 50% of the data.
 
@@ -63,7 +66,10 @@ The data was then broken into train and test groups at a 75/25 split using train
 
 The remaining missing data points were imputed using the SimpleImputer employing the "most_frequent" strategy.
 
-The training data's classes were very unbalanced to begin with at a ratio of about 4:1, SMOTE was employed in order to balance the training set prior to modeling.
+As can be seen in the graph below, the training data's classes were very unbalanced to begin with at a ratio of about 4:1, SMOTE was employed in order to balance the training set prior to modeling.
+
+<img width="854" alt="Screenshot 2023-05-18 at 10 27 14 AM" src="https://github.com/LucasFishbein/H1N1_Vaccine_Status_Predictor/assets/117129342/f1f279d9-ffb8-4959-afee-712234e9c79d">
+
 
 # Data Analysis and Modeling
 

@@ -85,7 +85,7 @@ The final step of the data analysis was to inspect the feature importance scores
 
 # Final Model for Predicting H1N1 Vaccine Status
 
-Of the four pipelines built out, the XGBoost model that included SMOTE was the best performing by a tiny margin. The confusiuon matrix as well as teh classification report for this model can be examined below:
+Of the four pipelines built out, the XGBoost model that included SMOTE was the best performing by a tiny margin. The confusiuon matrix as well as the classification report for this model can be examined below:
 
 0 = Not Vaccinated
 1 = Vaccinated
